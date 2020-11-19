@@ -1,0 +1,31 @@
+.d-flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.background {
+    background: rgb(255,216,121);
+    background: radial-gradient(circle, rgb(250, 227, 169) 0%, rgba(253,180,0,1) 100%); 
+}
+
+.icon-article {
+    width: 200px;
+    justify-content: space-between;
+    color: black;
+}
+
+.icon-article i {
+    cursor: pointer;
+    color: black;
+}
