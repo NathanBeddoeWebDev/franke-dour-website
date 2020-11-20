@@ -44,16 +44,16 @@ body {
 @media (max-width: 768px) {
     #spotify-iframe {
         width: 75vw;
-        height: 700px;
+        height: 300px;
         font-size: 1.5em;
     }
 
-    img {
+    #brand-logo {
         width: 100vw;
     }
 
     .icon-article {
-        width: 400px;
+        width: 75vw;
         padding-top: 40px;
         font-size: 4em;
     }
