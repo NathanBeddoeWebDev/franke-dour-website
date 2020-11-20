@@ -10,8 +10,8 @@ body {
     flex-direction: column;
 }
 
-.justify-content-center {
-    justify-content: center;
+.justify-content-between {
+    justify-content: space-between;
 }
 
 .align-items-center {
@@ -24,11 +24,12 @@ body {
 }
 
 .icon-article {
-    padding-top: 20px;
-    width: 200px;
+    width: 300px;
+    display: flex;
     justify-content: space-between;
     color: black;
     font-size: xx-large;
+    padding-bottom: 20px;
 }
 
 .icon-article i {
@@ -41,6 +42,10 @@ body {
     height: 380px;
 }
 
+#brand-logo {
+    max-width: 500px;
+}
+
 @media (max-width: 768px) {
     #spotify-iframe {
         width: 75vw;
@@ -49,12 +54,11 @@ body {
     }
 
     #brand-logo {
-        width: 100vw;
+        width: 95vw;
     }
 
     .icon-article {
-        width: 75vw;
-        padding-top: 40px;
+        width: 70vw;
         font-size: 4em;
     }
 
