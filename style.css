@@ -1,6 +1,11 @@
 body {
     overflow-x: hidden;
 }
+
+img {
+  width: 50vw;
+}
+
 footer {
   width: 99vw;
   display: flex;
@@ -54,6 +59,16 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .icon-article {
+    width: 70vw;
+    font-size: 4em;
+  }
+
+  .icon-article i {
+    cursor: pointer;
+    color: black;
+  }
+
   #main-section {
     height: 85vh;
   }
@@ -68,15 +83,5 @@ footer {
     width: 300px;
     max-width: fit-content;
     height: auto;
-  }
-
-  .icon-article {
-    width: 70vw;
-    font-size: 4em;
-  }
-
-  .icon-article i {
-    cursor: pointer;
-    color: black;
   }
 }
