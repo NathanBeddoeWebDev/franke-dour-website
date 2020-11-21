@@ -52,7 +52,7 @@ body {
 
 @media (max-width: 768px) {
     #main-section {
-        height: 85vh;
+        height: 90vh;
     }
 
     #spotify-iframe {
@@ -62,7 +62,7 @@ body {
     }
 
     #brand-logo {
-        width: 95vw;
+        width: 80vw;
     }
 
     .icon-article {
