@@ -1,5 +1,4 @@
 body {
-    overflow: hidden;
 }
 
 .d-flex {
@@ -43,17 +42,17 @@ body {
 
 #spotify-iframe {
     width: 300px;
-    height: 380px;
+    height: 200px;
 }
 
 @media (max-width: 768px) {
     #main-section {
-        height: 85vh;
+        height: 100vh;
     }
 
     #spotify-iframe {
         width: 75vw;
-        height: 30vh;
+        height: 80px;
         font-size: 1.5em;
     }
 
