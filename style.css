@@ -46,10 +46,6 @@ body {
     height: 380px;
 }
 
-#brand-logo {
-    max-width: 95vw;
-}
-
 @media (max-width: 768px) {
     #main-section {
         height: 90vh;
@@ -62,7 +58,8 @@ body {
     }
 
     #brand-logo {
-        width: 80vw;
+        width: 300px;
+        max-width: fit-content;
         height: auto;
     }
 
