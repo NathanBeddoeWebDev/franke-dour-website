@@ -27,12 +27,7 @@ footer {
 }
 
 .background {
-  background: rgb(255, 216, 121);
-  background: radial-gradient(
-    circle,
-    rgb(250, 227, 169) 0%,
-    rgba(253, 180, 0, 1) 100%
-  );
+  background: #ffc501;
 }
 
 .icon-article {
@@ -46,7 +41,7 @@ footer {
 
 .icon-article i {
   cursor: pointer;
-  color: black;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
 #main-section {
