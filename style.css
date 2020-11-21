@@ -47,7 +47,7 @@ body {
 }
 
 #brand-logo {
-    max-width: 500px;
+    max-width: 95vw;
 }
 
 @media (max-width: 768px) {
@@ -68,8 +68,6 @@ body {
     .icon-article {
         width: 70vw;
         font-size: 4em;
-        position: absolute;
-        bottom: 5vh;
     }
 
     .icon-article i {
