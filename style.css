@@ -19,7 +19,7 @@ body {
 
 .background {
     background: rgb(255,216,121);
-    background: radial-gradient(circle, rgb(250, 227, 169) 0%, rgba(253,180,0,1) 100%); 
+    background: radial-gradient(circle, rgb(250, 227, 169) 0%, rgba(253,180,0,1) 100%);
 }
 
 .icon-article {
@@ -47,7 +47,7 @@ body {
 
 @media (max-width: 768px) {
     #main-section {
-        height: 90vh;
+        height: 85vh;
     }
 
     #spotify-iframe {
