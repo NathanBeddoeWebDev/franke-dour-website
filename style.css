@@ -63,6 +63,7 @@ body {
 
     #brand-logo {
         width: 80vw;
+        height: auto;
     }
 
     .icon-article {
