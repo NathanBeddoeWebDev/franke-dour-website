@@ -1,74 +1,87 @@
 body {
+    overflow-x: hidden;
+}
+footer {
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
 }
 
 .d-flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-col {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .justify-content-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .align-items-center {
-    align-items: center;
+  align-items: center;
 }
 
 .background {
-    background: rgb(255,216,121);
-    background: radial-gradient(circle, rgb(250, 227, 169) 0%, rgba(253,180,0,1) 100%);
+  background: rgb(255, 216, 121);
+  background: radial-gradient(
+    circle,
+    rgb(250, 227, 169) 0%,
+    rgba(253, 180, 0, 1) 100%
+  );
 }
 
 .icon-article {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    font-size: xx-large;
-    padding-bottom: 20px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-size: xx-large;
+  padding-bottom: 20px;
 }
 
 .icon-article i {
-    cursor: pointer;
-    color: black;
+  cursor: pointer;
+  color: black;
 }
 
 #main-section {
-    height: 100vh;
+  height: 100vh;
 }
 
 #spotify-iframe {
-    width: 300px;
-    height: 200px;
+  width: 300px;
+  height: 80px;
 }
 
 @media (max-width: 768px) {
-    #main-section {
-        height: 85vh;
-    }
+  #main-section {
+    height: 85vh;
+  }
 
-    #spotify-iframe {
-        width: 75vw;
-        height: 80px;
-        font-size: 1.5em;
-    }
+  #spotify-iframe {
+    width: 75vw;
+    height: 80px;
+    font-size: 1.5em;
+  }
 
-    #brand-logo {
-        width: 300px;
-        max-width: fit-content;
-        height: auto;
-    }
+  #brand-logo {
+    width: 300px;
+    max-width: fit-content;
+    height: auto;
+  }
 
-    .icon-article {
-        width: 70vw;
-        font-size: 4em;
-    }
+  .icon-article {
+    width: 70vw;
+    font-size: 4em;
+  }
 
-    .icon-article i {
-        cursor: pointer;
-        color: black;
-    }
+  .icon-article i {
+    cursor: pointer;
+    color: black;
+  }
 }
